@@ -10,17 +10,27 @@ using namespace std;
 int main() {
     float water;
     float i,j,k;
+    float height;
+    string gender;
 
-    cout << "Problem 1\nEnter the amount of consumed water\n";
+
+    cout<<"Problem 1\nEnter the amount of consumed water\n";
     cin>>water;
     cout<<problemSolution1(water)<<endl;
+
+
     cout << "Problem 2\nEnter three numbers\n";
     cin>>i;
     cin>>j;
     cin>>k;
     cout<<"The maximum number is "<<problemSolution2(i,j,k)<<endl;
-    cout << "Problem 3\n";
-    //problemSolution3();
+
+
+    cout << "Problem 3\nEnter height"<<endl;
+    cin>>height;
+    cout<<R"(Enter gender, write "Male" or "Female")";
+    cin>>gender;
+    cout<<problemSolution3(height, gender)<<endl;
     cout << "Problem 4\n";
     //problemSolution4();
     cout << "Problem 5\n";
