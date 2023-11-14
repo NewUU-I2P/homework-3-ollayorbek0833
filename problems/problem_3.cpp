@@ -2,25 +2,23 @@
 using namespace std;
 
 string problemSolution3(float height, string S) {
-    string result;
     if(S == "M"){
         if(height<1.70){
-            result = "Short";
+            return "Short";
         }else if(height>=1.70&&height<1.85){
-            result = "Normal";
+            return "Normal";
         } else{
-            result = "Tall";
+            return "Tall";
         }
     }else if(S == "F"){
         if(height<1.60){
-            result = "Short";
+            return "Short";
         }else if(height>=1.60&&height<1.75){
-            result = "Normal";
+            return "Normal";
         } else{
-            result = "Tall";
+            return "Tall";
         }
     }else{
-        result = "not exist";
+        return "not exist";
     }
-    return "The person is " + result;
 }
