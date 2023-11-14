@@ -11,7 +11,7 @@ int main() {
     float water;
     float i,j,k;
     float height;
-    string gender;
+    char gender;
 
 
     cout<<"Problem 1\nEnter the amount of consumed water\n";

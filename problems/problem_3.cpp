@@ -1,8 +1,8 @@
 #include <string>
 using namespace std;
 
-string problemSolution3(float height, string S) {
-    if(S == "M"){
+string problemSolution3(float height, char S) {
+    if(S == 'M'){
         if(height<1.70){
             return "Short";
         }else if(height>=1.70&&height<1.85){
@@ -10,7 +10,7 @@ string problemSolution3(float height, string S) {
         } else{
             return "Tall";
         }
-    }else if(S == "F"){
+    }else if(S == 'F'){
         if(height<1.60){
             return "Short";
         }else if(height>=1.60&&height<1.75){
