@@ -12,6 +12,7 @@ int main() {
     float i,j,k;
     float height;
     char gender;
+    string mac;
 
 
     cout<<"Problem 1\nEnter the amount of consumed water\n";
@@ -32,7 +33,8 @@ int main() {
     cin>>height;
     cout<<problemSolution3(height, gender)<<endl;
     cout << "Problem 4\n";
-    //problemSolution4();
+    cin >> mac;
+    cout<<problemSolution4(mac)<<endl;
     cout << "Problem 5\n";
     //problemSolution5();
     return 0;
