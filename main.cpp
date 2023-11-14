@@ -26,10 +26,10 @@ int main() {
     cout<<"The maximum number is "<<problemSolution2(i,j,k)<<endl;
 
 
+    cout<<R"(Enter gender, write "M" or "F")";
+    cin>>gender;
     cout << "Problem 3\nEnter height"<<endl;
     cin>>height;
-    cout<<R"(Enter gender, write "Male" or "Female")";
-    cin>>gender;
     cout<<problemSolution3(height, gender)<<endl;
     cout << "Problem 4\n";
     //problemSolution4();
